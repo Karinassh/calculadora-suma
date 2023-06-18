@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Calculadora-suma</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="alerta" id="alerta">
+            <p class="mensaje-alerta"></p>
+        </div>
+        <form class="formulario" id="formulario">
+            <div class="fieldset">
+                <label for="primer-numero">1er número</label>
+                <input type="number" placeholder="1er número" id="primer-numero">
+            </div>
+            <div class="fieldset">
+                <label for="segundo-numero">2do número</label>
+                <input type="number" placeholder="2do número" id="segundo-numero">
+            </div>
+            <input type="submit" value="Calcular" class="boton">
+        </form>
+        <div class="resultado" id="resultado">
+            <p>El resultado de la operación es:</p>
+            <p class="valor-resultado" id="valor-resultado"></p>
+        </div>
+    </div>
+    <script src="/javascript/index.js"></script>
+</body>
+</html>
